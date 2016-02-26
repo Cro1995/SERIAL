@@ -28,8 +28,20 @@ void setup() {     // put your setup code here, to run once:
   Serial.println(a + b);
   Serial.print("c + d = ");
   Serial.println(c + d); 
+
+    Serial.print("a * c = ");       // operació multiplicació 
+  Serial.println(a * c);
   
+  Serial.print("c / b = ");       // operaió divisió 
+  Serial.println(c / b);
+
+  Serial.print("c % b = ");       // operació moduls
+  Serial.println(c % b);
+  
+  Serial.print("b - c = ");       // operació resta 
+  Serial.println(b - c);
 }
+
 
 void loop() {
   // put your main code here, to run repeatedly:
