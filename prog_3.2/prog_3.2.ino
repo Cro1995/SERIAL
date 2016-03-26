@@ -37,7 +37,7 @@ void loop()
 
   if(thisByte == 126)  // if printed last visible character '~'
   { 
-    while(true)
+    while(true) //mentre sigui veritat 
     { 
     } 
   } 
